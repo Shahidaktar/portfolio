@@ -103,7 +103,7 @@ const Hero = () => {
 
                   <ModalBody>
                     <ModalContent>
-                      <h4 className="text-lg md:text-2xl text-blue-500 dark:text-blue-500 font-bold text-center mb-8">
+                      <h4 className="text-lg md:text-2xl text-blue-500 dark:text-blue-500 font-bold text-center mb-8 md:mb-4">
                         ABOUT ME
                       </h4>
                       <div className="flex items-center space-x-3 justify-center">
@@ -124,7 +124,7 @@ const Hero = () => {
                         </h1>
                       </div>
 
-                      <h4 className="text-lg md:text-2xl text-blue-500 dark:text-blue-500 font-bold text-center my-4">
+                      <h4 className="text-lg md:text-2xl text-blue-500 dark:text-blue-500 font-bold text-center my-4 md:my-2">
                         SKILLS
                       </h4>
                       <div className="py-4 flex flex-wrap gap-x-4 gap-y-6 items-start justify-start  mx-auto w-full">
