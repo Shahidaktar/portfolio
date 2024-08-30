@@ -96,7 +96,7 @@ const Hero = () => {
 
                 <Modal>
                   <div className="flex md:block space-x-2 relative">
-                    <ModalTrigger className="bg-[#4595eb] py-2 px-3 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group">
+                    <ModalTrigger className="bg-[#4595eb] py-3 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group">
                       ABOUT ME
                     </ModalTrigger>
                   </div>
