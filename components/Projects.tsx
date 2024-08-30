@@ -44,18 +44,18 @@ const Projects = () => {
     >
       <motion.span
         variants={variants}
-        className="heading rounded-lg font-poppins flex items-center justify-center border border-cyan-500 text-cyan-500 p-4 mt-12 w-fit mx-auto"
+        className="heading rounded-lg font-poppins flex items-center justify-center border border-cyan-500 text-cyan-500 p-4 md:p-3 mt-12 md:mt-10 w-fit mx-auto"
       >
         Projects
       </motion.span>
       <motion.div
         variants={variants}
-        className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10"
+        className="flex flex-wrap items-center justify-center p-4 md:p-2 gap-16 mt-10 md:mt-8"
       >
         {projects.map((item) => (
           <motion.div
             variants={variants}
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] md:w-[60vw]"
             key={item.id}
           >
             <PinContainer title={item.about} href={item.githubLink}>
@@ -67,13 +67,13 @@ const Projects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  height={150}
-                  width={150}
+                  height={120}
+                  width={120}
                   className="absolute l-[50%]"
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-lg line-clamp-1">
+              <h1 className="font-bold md:text-xl text-lg line-clamp-1">
                 {item.title}
               </h1>
 
@@ -81,7 +81,7 @@ const Projects = () => {
                 {item.iconLists?.map((icon, index) => (
                   <div
                     key={index}
-                    className="border border-white/[.2] rounded-full shadow-xl  lg:w-12 lg:h-12 w-10 h-10 flex justify-center items-center"
+                    className="border border-white/[.2] rounded-full shadow-xl  lg:w-11 lg:h-11 w-10 h-10 flex justify-center items-center"
                     style={{
                       transform: `translateX(-${5 * index + 2}px)`,
                     }}

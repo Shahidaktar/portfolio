@@ -96,7 +96,7 @@ const Hero = () => {
 
                 <Modal>
                   <div className="flex md:block space-x-2 relative">
-                    <ModalTrigger className="bg-[#4595eb] py-3 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group">
+                    <ModalTrigger className="bg-[#4595eb] py-2 px-3 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group">
                       ABOUT ME
                     </ModalTrigger>
                   </div>
@@ -157,7 +157,7 @@ const Hero = () => {
                     href="https://www.instagram.com/mr_shahid_aktar"
                     target="_blank"
                   >
-                    <FaInstagram className="h-8 w-8 md:h-10 md:w-10 text-indigo-200" />
+                    <FaInstagram className="h-8 w-8 md:h-9 md:w-9 text-indigo-200" />
                   </a>
                 </motion.li>
                 <motion.li variants={textVariants}>
@@ -165,12 +165,12 @@ const Hero = () => {
                     href="https://www.facebook.com/sahid.akter.526"
                     target="_blank"
                   >
-                    <FaFacebookF className="h-8 w-8 md:h-10 md:w-10 text-indigo-200 hover:text-indigo-100" />
+                    <FaFacebookF className="h-8 w-8 md:h-9 md:w-9 text-indigo-200 hover:text-indigo-100" />
                   </a>
                 </motion.li>
                 <motion.li variants={textVariants}>
                   <a href="https://github.com/Shahidaktar" target="_blank">
-                    <FaGithub className="h-8 w-8 md:h-10 md:w-10 text-indigo-200 hover:text-indigo-100" />
+                    <FaGithub className="h-8 w-8 md:h-9 md:w-9 text-indigo-200 hover:text-indigo-100" />
                   </a>
                 </motion.li>
                 <motion.li variants={textVariants}>
@@ -178,12 +178,12 @@ const Hero = () => {
                     href="https://www.linkedin.com/in/shahid-aktar-mandal-331872292"
                     target="_blank"
                   >
-                    <FaLinkedinIn className="h-8 w-8 md:h-10 md:w-10 text-indigo-200 hover:text-indigo-100" />
+                    <FaLinkedinIn className="h-8 w-8 md:h-9 md:w-9 text-indigo-200 hover:text-indigo-100" />
                   </a>
                 </motion.li>
                 <motion.li variants={textVariants}>
                   <Link href="/resume.pdf" target="_blank">
-                    <IoDocumentTextOutline className="h-8 w-8 md:h-10 md:w-10 text-indigo-200 hover:text-indigo-100" />
+                    <IoDocumentTextOutline className="h-8 w-8 md:h-9 md:w-9 text-indigo-200 hover:text-indigo-100" />
                   </Link>
                 </motion.li>
               </motion.ul>
