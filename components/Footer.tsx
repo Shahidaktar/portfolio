@@ -81,8 +81,8 @@ const Footer = () => {
         <motion.img
           variants={variants}
           src={"/images/msg.svg"}
-          height={800}
-          width={800}
+          height={600}
+          width={600}
           alt="msg"
           className="hidden md:block"
         />
