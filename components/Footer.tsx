@@ -74,7 +74,7 @@ const Footer = () => {
           variants={variants}
           className="heading font-poppins flex items-center justify-center border border-cyan-500 text-cyan-500 p-4 mt-2 w-fit mx-auto rounded-lg"
         >
-          Contact Me
+          {`Contact`}
         </motion.span>
       </motion.div>
       <motion.div variants={variants} className="flex justify-around">
