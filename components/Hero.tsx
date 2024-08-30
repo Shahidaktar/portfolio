@@ -72,13 +72,13 @@ const Hero = () => {
                 animate="animate"
               >
                 <motion.h1
-                  className="pointer-events-none text-xl md:text-6xl font-poppins mr-12 text-indigo-400 pb-2 tracking-widest"
+                  className="pointer-events-none text-xl lg:text-6xl font-poppins mr-12 text-indigo-400 pb-2 tracking-widest"
                   variants={textVariants}
                 >
                   SHAHID AKTAR MANDAL
                 </motion.h1>
                 <motion.h4
-                  className="pointer-events-none text-lg md:text-2xl italic my-4 md:my-8 text-gray-200 pb-2 "
+                  className="pointer-events-none text-lg lg:text-2xl italic my-4 md:my-8 text-gray-200 pb-2 "
                   variants={textVariants}
                 >
                   <Typewriter
