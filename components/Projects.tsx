@@ -50,7 +50,7 @@ const Projects = () => {
       </motion.span>
       <motion.div
         variants={variants}
-        className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10"
+        className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10 md:mt-5"
       >
         {projects.map((item) => (
           <motion.div
